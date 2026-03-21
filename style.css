@@ -18,6 +18,27 @@ header {
     margin-right: 180px;
 }
 
+.hero-section {
+    min-height: 80vh;
+    width: 100%;
+    margin: 10px;
+}
+ .card-1 {
+    position: relative;
+ }
+
+ .card-1:nth-of-type(1) {
+background: url(apple-3.jpg) no-repeat center / cover;
+width: 100%;
+height:80vh;
+ }
+
+ .pos-rel {
+    position: absolute;
+    left: 45%;
+    top: 10%;
+ }
+
 .slct-size {
     width: 400px;
     border: 1px none  gray;
@@ -56,7 +77,6 @@ ul {
 
     
 }
-
 .item-1 {
     margin-left: 40px;
 }
@@ -72,25 +92,10 @@ ul li a{
 }
 
 
-.card-1 {
-    position: absolute;
-    background: url(apple-3.jpg)  no-repeat center/ cover;
-    left: 10px;
-    right: 10px;
-    height: 700px;
-    overflow: hidden;
-}
-
-.pos-rel {
-    position:relative;
-    top: 30px;
-    left:800px;
-}
-
 h2 {
     font-size: 40px;
+    color: white;
 }
-
 
 
 .blue-btn {
