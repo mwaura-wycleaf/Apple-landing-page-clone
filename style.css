@@ -14,50 +14,66 @@ header {
     align-items: center;
 }
 
-.mrg-right {
-    margin-right: 180px;
-}
 
 .hero-section {
     min-height: 80vh;
     width: 100%;
     margin: 20px;
 }
- .card-1 {
+
+.hero-card {
     position: relative;
     margin-bottom: 15px;
     
- }
+}
 
- .card-1:nth-of-type(1) {
-background: url(apple-3.jpg) no-repeat top / cover;
-width: 100%;
-height:90vh;
-background-color: #f5f5f7;
- }
+.iphone {
+    background: url(apple-3.jpg) no-repeat top / cover;
+    width: 100%;
+    height:90vh;
+    background-color: #f5f5f7;
+}
 
-  .card-1:nth-of-type(2) {
-background: url(apple-2.jpg) no-repeat bottom / contain;
-width: 100%;
-height:90vh;
-background-color: #f5f5f7;
- }
+.iphone p {
+    font-size: 28px;
+    margin-bottom:5px;
+    color:white;
+}
 
-  .card-1:nth-of-type(3) {
+.macbook {
+    background: url(apple-2.jpg) no-repeat bottom / contain;
+    width: 100%;
+    height:90vh;
+    background-color: #f5f5f7;
+}
+
+.macbook h2,
+.ipad h2 {
+    color: black;
+}
+
+.macbook p,
+.ipad p {
+     font-size: 28px;
+      margin-bottom:5px;
+      color:black;
+}
+
+.ipad {
 background: url(apple-4.jpg) no-repeat right bottom / cover;
 width: 100%;
 height:90vh;
 background-color: #f5f5f7;
- }
+}
 
- .pos-rel {
+.hero-content {
     position: absolute;
     left: 45%;
     top: 10%;
     transform: translateX(-50%);
     text-align: center;
     width: 100%;
- }
+}
 
 .slct-size {
     width: 400px;
@@ -67,9 +83,6 @@ background-color: #f5f5f7;
     margin-right: 30px;
 }
 
-.check-mrg {
-    margin-right: 20px;
-}
 
 .btn-c {
   background-color: black;
@@ -98,7 +111,7 @@ ul {
 
     
 }
-.item-1 {
+.nav-item {
     margin-left: 40px;
 }
 
@@ -119,7 +132,7 @@ h2 {
     color: white;
 }
 
-.air-class {
+.air-text {
 font-weight: 300;
 font-style: italic;
 color: #5ea1d7;
