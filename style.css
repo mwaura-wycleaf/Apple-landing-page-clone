@@ -7,6 +7,7 @@
 body {
     background-color:rgb(235, 230, 230);
 }
+
 header {
     display: flex;
     padding-left: 320px;
@@ -14,6 +15,9 @@ header {
     align-items: center;
 }
 
+header .dropdown {
+    margin-left: 50px;
+}
 
 .hero-section {
     min-height: 80vh;
@@ -54,16 +58,16 @@ header {
 
 .macbook p,
 .ipad p {
-     font-size: 28px;
-      margin-bottom:5px;
-      color:black;
+    font-size: 28px;
+    margin-bottom:5px;
+    color:black;
 }
 
 .ipad {
-background: url(apple-4.jpg) no-repeat right bottom / cover;
-width: 100%;
-height:90vh;
-background-color: #f5f5f7;
+    background: url(apple-4.jpg) no-repeat right bottom / cover;
+    width: 100%;
+    height:90vh;
+    background-color: #f5f5f7;
 }
 
 .hero-content {
@@ -84,7 +88,7 @@ background-color: #f5f5f7;
 }
 
 
-.btn-c {
+header button {
   background-color: black;
   color: white;
   padding: 8px;
@@ -126,22 +130,21 @@ ul li a{
    
 }
 
-
 h2 {
     font-size: 40px;
     color: white;
 }
 
 .air-text {
-font-weight: 300;
-font-style: italic;
-color: #5ea1d7;
-margin-left: 5px;
-font-family: "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #5ea1d7;
+    margin-left: 5px;
+    font-family: "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
 }
 
 
-.blue-btn {
+.hero-section button:nth-of-type(1) {
     color: white;
     background-color: rgb(73, 73, 225);
     padding: 12px 21px;
@@ -151,7 +154,7 @@ font-family: "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
     cursor: pointer;
 }
 
-.clear-btn {
+.hero-section button:nth-of-type(2) {
     color: blue;
     border: solid 1px blue;
     padding: 12px 21px;
