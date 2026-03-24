@@ -1,7 +1,4 @@
-Here’s a clean and professional README for your Apple landing page clone project:
 
-
----
 
 Apple Landing Page Clone
 
