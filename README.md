@@ -4,8 +4,7 @@ Apple Landing Page Clone
 
 Description
 
-This is a frontend clone of the Apple landing page hero section.
-It focuses on HTML and CSS skills, including layout, typography, buttons, and responsive design.
+This is a frontend clone of the Apple landing page hero section which focuses on HTML and CSS skills, including layout, typography, buttons, and responsive design.
 The project is static, with no JavaScript functionality.
 
 
